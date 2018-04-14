@@ -1,6 +1,7 @@
 martial_arts_dictionary = dict()
 
 while True:
+    
     martial_art = input('What martial art would you like to add? ')
     origin = input('Where has it originated from? ')
     martial_arts_dictionary[martial_art] = origin

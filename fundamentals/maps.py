@@ -24,8 +24,7 @@ while True:
 #
 # print(shuffled_words)
 
-# print(list(map(shuffle_a_word, words_to_shuffle)))
+# print([ shuffle_a_word(word_to_shuffle) for word_to_shuffle in words_to_shuffle ])
 
-shuffled_words = [ shuffle_a_word(word_to_shuffle) for word_to_shuffle in words_to_shuffle ]
 
-print(shuffled_words)
+print(list(map(shuffle_a_word, words_to_shuffle)))

@@ -9,7 +9,6 @@
 # print(lines_list)
 #
 # dummy_file.seek(25)
-#
 # sample_text = dummy_file.read(75)
 # print(sample_text)
 #
